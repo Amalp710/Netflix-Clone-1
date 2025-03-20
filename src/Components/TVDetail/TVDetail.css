@@ -1,0 +1,27 @@
+.tv-detail {
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+  
+  .tv-banner {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
+  .tv-info {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .tv-info h1 {
+    font-size: 2rem;
+  }
+  
+  .tv-info p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+  

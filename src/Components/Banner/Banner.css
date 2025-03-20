@@ -1,0 +1,174 @@
+.banner {
+    position: relative;
+    color: #fff;
+    object-fit: contain;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 60px 30px;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .content {
+    margin-left: 30px;
+    padding-bottom: 95px;
+
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+  }
+  
+  .banner_buttons {
+    margin-top: 20px;
+  }
+  
+  .button {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding: 0.5rem 2rem;
+    margin-right: 1rem;
+    background-color: rgba(51, 51, 51, 0.5);
+    display: inline-flex; 
+    align-items: center; 
+  }
+  
+  .button img {
+    width: 25px;
+    margin-right: 5px; 
+  }
+  
+  
+  .button:hover {
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+  }
+  
+  .discription {
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    max-width: 360px;
+    height: 80px;
+  }
+  
+  .fade_bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4.5rem;
+    background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(37, 37, 37, 0.61),
+      #111
+    );
+  }
+  
+  @media (max-width: 768px) {
+    .banner {
+      height: 300px;
+      padding: 20px 15px;
+    }
+  
+    .content {
+      margin-left: 15px;
+    }
+  
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .banner_buttons {
+      margin-top: 10px;
+    }
+  
+    .button {
+      padding: 0.3rem 1rem;
+      margin-right: 0.5rem;
+    }
+  
+    .discription {
+      width: 100%;
+      font-size: 0.7rem;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner {
+      height: 200px;
+      padding: 10px 10px;
+    }
+  
+    .content {
+      margin-left: 10px;
+    }
+  
+    .title {
+      font-size: 1rem;
+    }
+  
+    .banner_buttons {
+      margin-top: 5px;
+    }
+  
+    .button {
+      padding: 0.2rem 0.5rem;
+      margin-right: 0.3rem;
+    }
+  
+    .discription {
+      font-size: 0.6rem;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+
+  .trailer-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.trailer-container {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 10;
+}

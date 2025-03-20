@@ -1,0 +1,58 @@
+.movies-container {
+    color: #fff;
+    margin-top: 70px;
+    text-align: center;
+  }
+  
+  .movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .movie-item {
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .movie-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    margin-top: 30px;
+  }
+  
+  /* Hover Effect */
+  .movie-item:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Load More Button Styling */
+  .load-more {
+    display: block;
+    background-color: #e50914;  /* Netflix Red */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto; /* Centering */
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  .load-more:hover {
+    background-color: #b20710; /* Darker Red */
+    transform: scale(1.05);
+  }
+  
+  .load-more:active {
+    transform: scale(0.95);
+  }
+  
