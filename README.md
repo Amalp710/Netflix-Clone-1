@@ -43,6 +43,7 @@ This is a simple React-based movie application that displays movies and their tr
 ## Notes
 - The trailer feature uses the `react-youtube` package to embed YouTube trailers.
 - Ensure your API key is correctly configured in the project.
+- If you want to see the website directly click the deployment in the right side of the repository page it will give you the live link.
 
 ## Code Quality
 - The code is clean, structured, and well-commented.
